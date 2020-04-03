@@ -1,3 +1,4 @@
 class Boat < ApplicationRecord
-  validates: :name, :description, :colour, presence: true
+  validates :name, presence: true, uniqueness: true
+  validates :description, :colour, presence: true
 end
