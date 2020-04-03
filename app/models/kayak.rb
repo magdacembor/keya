@@ -1,2 +1,0 @@
-class Kayak < ApplicationRecord
-end
